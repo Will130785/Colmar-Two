@@ -44,6 +44,24 @@ nav {
     padding-left: 16px;
 }
 
+.mobile-options {
+    display: none;
+}
+
+/* Header Section Media Queries */
+
+@media only screen and (max-width: 700px) {
+    .logo, .options {
+        display: none;
+    }
+
+    .mobile-options {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+}
+
 /* Learn Section */
 
 .learn {
@@ -83,6 +101,10 @@ button {
     font-weight: bold;
     width: 75%;
 }
+
+/* Learn Section Media Queries */
+
+
 
 /* Practice Section */
 
