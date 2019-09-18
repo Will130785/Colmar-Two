@@ -2,10 +2,12 @@
 
 body {
     font-family: Helvetica;
+    line-height: 2;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 55px;
+    line-height: 1.3;
 }
 
 h2 {
@@ -54,7 +56,6 @@ nav {
 
 .main-image {
     width: 60%;
-    padding-right: 24px;
 }
 
 .main-image img {
@@ -65,7 +66,8 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 40%;
+    padding-left: 32px;
 }
 
 .text h1 {
@@ -77,11 +79,11 @@ nav {
 }
 
 button {
-    padding: 8px 0 8px 0;
+    padding: 16px 0 16px 0;
     background-color: darkgray;
     color: white;
     font-weight: bold;
-    width: 85%;
+    width: 75%;
 }
 
 /* Practice Section */
@@ -100,8 +102,17 @@ button {
     width: 100%;
 }
 
+.practice-info h2{
+    padding: 32px 0 24px 0;
+}
+
+.quote {
+    padding: 32px 0;
+}
+
 .sub-content {
     width: 40%;
+    border-left: 1px solid lightgray;
 }
 
 .story {
@@ -109,13 +120,104 @@ button {
 }
 
 .story-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 65%;
+}
+
+.story-text p {
+    padding: 8px 0;
 }
 
 .story-image {
     width: 35%;
+    padding: 16px 16px;
 }
 
 .story-image img {
     width: 100%
+}
+
+.orientation {
+    border-bottom: 1px solid lightgray;
+}
+
+.campus {
+    border-top: 1px solid lightgray;
+}
+
+.guest {
+    background-color: lightgray;
+}
+
+/* Start Section */
+
+.start {
+    background-color: lightgray;
+}
+
+.title {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 72px 32px 72px;
+}
+
+.subject {
+    margin: 32px 32px;
+    width: 25%;
+    background-color: white;
+}
+
+.subject img {
+    height: auto;
+    width: 100%;
+}
+
+.subject-text {
+    padding: 16px 16px 24px 16px;
+}
+
+.subject-text h4 {
+    padding: 8px 0;
+}
+
+/* Thesis Section */
+
+.thesis-content {
+    display: flex;
+    padding: 32px 0 32px 24px;
+}
+
+.video-section {
+    width: 60%;
+    margin-right: 24px;
+}
+
+.video-section video {
+    width: 100%;
+}
+
+.fisma {
+    background-color: lightgray;
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 0 24px;
+}
+
+.foot-options span {
+    display: inline-block;
+    padding-left: 16px;
 }
