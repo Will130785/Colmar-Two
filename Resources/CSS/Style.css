@@ -108,7 +108,7 @@ button {
     
     body .learn {
         flex-direction: column;
-        padding: 0 0 16px 0;
+        padding: 0 0 32px 0;
     }
 
     body .main-image {
@@ -177,6 +177,10 @@ button {
     padding: 16px 16px;
 }
 
+.mobile-pic {
+    display: none;
+}
+
 .story-image img {
     width: 100%
 }
@@ -191,6 +195,44 @@ button {
 
 .guest {
     background-color: lightgray;
+}
+
+/* Practice Section Media Queries */
+
+@media only screen and (max-width: 700px) {
+    .practice-info {
+        display: none;
+    }
+
+    body .sub-content {
+        width: 100%;
+    }
+
+    body .story {
+        flex-direction: column;
+        padding: 0 16px 32px 16px;
+    }
+
+    body .story-image {
+        display: none;
+    }
+
+    body .mobile-pic {
+        display: block;
+    }
+
+    .mobile-pic img {
+        width: 100%;
+    }
+
+    body .practice {
+        padding-left: 0;
+    }
+
+    body .story-text {
+        align-items: flex-start;
+    }
+
 }
 
 /* Start Section */
@@ -229,6 +271,36 @@ button {
 
 .subject-text h4 {
     padding: 8px 0;
+}
+
+.mobile-course {
+    display: none;
+}
+
+/* Start Section Media Queries */
+
+@media only screen and (max-width: 700px) {
+    .content {
+        display: none;
+    }
+
+    body .mobile-course {
+        display: block;
+    }
+
+    .mobile-course h2 {
+        background-color: lightgray;
+        margin-bottom: 8px;
+        padding: 16px 0 16px 16px;
+    }
+
+    body .start {
+        background-color: white;
+    }
+
+    body .title {
+        padding-bottom: 32px;
+    }
 }
 
 /* Thesis Section */
