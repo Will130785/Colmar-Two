@@ -67,7 +67,7 @@ nav {
 .learn {
     display: flex;
     padding: 32px 0 32px 24px;
-    background-color: lightgray;
+    background-color: #FFE331;
 }
 
 .main-image {
@@ -96,7 +96,7 @@ nav {
 
 button {
     padding: 16px 0 16px 0;
-    background-color: darkgray;
+    background-color: black;
     color: white;
     font-weight: bold;
     width: 75%;
@@ -194,7 +194,7 @@ button {
 }
 
 .guest {
-    background-color: lightgray;
+    background-color: #FFE331;
 }
 
 /* Practice Section Media Queries */
@@ -238,7 +238,7 @@ button {
 /* Start Section */
 
 .start {
-    background-color: lightgray;
+    background-color: #FFE331;
 }
 
 .title {
@@ -289,7 +289,7 @@ button {
     }
 
     .mobile-course h2 {
-        background-color: lightgray;
+        background-color: #FFE331;
         margin-bottom: 8px;
         padding: 16px 0 16px 16px;
     }
@@ -320,7 +320,7 @@ button {
 }
 
 .fisma {
-    background-color: lightgray;
+    background-color: #FFE331;
 }
 
 /* Thesis Section Media Queries */
