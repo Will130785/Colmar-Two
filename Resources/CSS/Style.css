@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica;
+    font-family: "Oswald", sans-serif;
     line-height: 2;
 }
 
@@ -67,7 +67,7 @@ nav {
 .learn {
     display: flex;
     padding: 32px 0 32px 24px;
-    background-color: #FFE331;
+    background-color: #056cf285;
 }
 
 .main-image {
@@ -194,7 +194,7 @@ button {
 }
 
 .guest {
-    background-color: #FFE331;
+    background-color: #056cf285;
 }
 
 /* Practice Section Media Queries */
@@ -238,7 +238,7 @@ button {
 /* Start Section */
 
 .start {
-    background-color: #FFE331;
+    background-color: #056cf285;
 }
 
 .title {
@@ -258,6 +258,7 @@ button {
     margin: 32px 32px;
     width: 25%;
     background-color: white;
+    border-radius: 15px;
 }
 
 .subject img {
@@ -289,9 +290,14 @@ button {
     }
 
     .mobile-course h2 {
-        background-color: #FFE331;
+        background-color: #056cf285;
         margin-bottom: 8px;
         padding: 16px 0 16px 16px;
+    }
+
+    .mobile-course h2:hover {
+        background-color: black;
+        color: white;
     }
 
     body .start {
@@ -320,7 +326,7 @@ button {
 }
 
 .fisma {
-    background-color: #FFE331;
+    background-color: #056cf285;
 }
 
 /* Thesis Section Media Queries */
