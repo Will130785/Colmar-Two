@@ -34,6 +34,20 @@ nav {
     height: 64px;
 }
 
+nav span:hover {
+    color: red;
+    transition-property: color;
+    transition-duration: 750ms;
+}
+
+#colmar {
+    color: red;
+}
+
+#colmar:hover {
+    color: black;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -100,6 +114,10 @@ button {
     color: white;
     font-weight: bold;
     width: 75%;
+}
+
+button:active {
+    background-color: darkgray;
 }
 
 /* Learn Section Media Queries */
@@ -231,6 +249,10 @@ button {
 
     body .story-text {
         align-items: flex-start;
+    }
+
+    body .guest img {
+        padding-top: 16px;
     }
 
 }
